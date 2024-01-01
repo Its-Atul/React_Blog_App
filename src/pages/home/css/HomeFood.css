@@ -1,0 +1,69 @@
+/* ==== Styling for food Content is Started ===== */
+
+.Home-food-Container {
+    /* background-color: red; */
+    padding: 5px;
+    margin-top: 40px;
+  }
+  
+  .home-latest-food-stories-title {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .Home-food-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .food {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(102, 98, 98);
+    cursor: pointer;
+    /* background-color: red; */
+  }
+  
+  .food-img {
+    width: 70%;
+    height: 150px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #262626;
+  }
+  
+  .food-texts {
+    /* font-size: 18px; */
+    color: orangered;
+    margin-top: 0.6rem;
+    word-wrap: break-word;
+    font-size: 1.5rem;
+    /* -webkit-text-stroke: 1px #130f27; */
+  }
+  
+  @media screen and (max-width:835px) {   
+    .food {
+      width: 100%;
+      height: auto;
+      margin-top: 6vh;
+    }
+  
+    .food-img {
+      height: 300px;
+      width: 380px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width:405px) {
+    .food-img {
+      height: auto;
+      width: 70%;
+      margin-bottom: 20px;
+    }
+  }

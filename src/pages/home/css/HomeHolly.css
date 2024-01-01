@@ -1,0 +1,59 @@
+/* Bollywood Styling started  */
+
+.home-latest-bollywood-stories-title {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 5vh;
+}
+
+.bolly-stories {
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 4px #262626; */
+    /* padding: 10px; */
+}
+
+/* .bolly-image-wrapper{
+
+} */
+
+.movie-details p {
+    color: #343b5f;
+}
+
+.movie-details-para {
+    margin-left: 15px;
+}
+
+.movie-details-release-para {
+    margin-left: 15px;
+}
+
+.bolly-image {
+    border-radius: 8px;
+    border: 1px solid #fafafa;
+    box-shadow: 4px 4px 8px #262626;
+}
+
+.bolly-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.IMdb {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.release-left {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+
+.movie-data-contain {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
